@@ -121,10 +121,10 @@ cobalt = TextProperties()
 cobalt.setTextColor(0, 0.28, 0.67, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cobalt', cobalt)
 
-CRConnecting = 'Connecting...'
-CRNoConnectTryAgain = 'Could not connect to %s:%s. Try again?'
+CRConnecting = 'Attempting Connection...'
+CRNoConnectTryAgain = 'Could not connect to %s:%s. Attempt to reconnect?'
 CRNoConnectProxyNoPort = 'Could not connect to %s:%s.\n\nYou are communicating to the internet via a proxy, but your proxy does not permit connections on port %s.\n\nYou must open up this port, or disable your proxy, in order to play.  If your proxy has been provided by your ISP, you must contact your ISP to request them to open up this port.'
-CRNoDistrictsTryAgain = 'No Districts are available. Try again?'
+CRNoDistrictsTryAgain = 'No Districts are available. Attempt to search for mo?'
 CRRejectRemoveAvatar = 'The avatar was not able to be deleted, try again another time.'
 CRLostConnection = 'Your internet connection to the servers has been unexpectedly broken.'
 CRBootedReasons = {100: 'You have been disconnected because someone else just logged in using your account on another computer.',
@@ -137,14 +137,14 @@ CRBootedReasons = {100: 'You have been disconnected because someone else just lo
  166: 'You were disconnected to prevent a district reset.'}
 CRBootedReasonUnknownCode = 'An unexpected problem has occurred (error code %s).  Your connection has been lost, but you should be able to connect again and go right back into the game.'
 CRTryConnectAgain = '\n\nTry to connect again?'
-CRToontownUnavailable = 'The server appears to be temporarily unavailable, still trying...'
+CRToontownUnavailable = 'The server appears to be temporarily unavailable. /n/n Attempting to reconnect shortly...'
 CRToontownUnavailableCancel = lCancel
 CRNameCongratulations = 'CONGRATULATIONS!!'
 CRNameAccepted = 'Your name has been\napproved by the Toon Council.\n\nFrom this day forth\nyou will be named\n"%s"'
-CRMaintenanceCountdownMessage = 'Attention Toons! Toontown Stride will be going down for maintenance in %d minutes.'
-CRMaintenanceMessage = 'Attention Toons! Toontown Stride is now going down for maintenance.'
+CRMaintenanceCountdownMessage = 'Attention Toons! Toontown will be going down for maintenance in %d minutes.'
+CRMaintenanceMessage = 'Attention Toons! Toontown is now going to be down for maintenance. \n\nSee you soon!.'
 AfkForceAcknowledgeMessage = 'Your toon got sleepy and went to bed.'
-CREnteringToontown = 'Entering...'
+CREnteringToontown = 'Now Loading...'
 DialogSpecial = 'ooo'
 DialogExclamation = '!'
 DialogQuestion = '?'
@@ -308,7 +308,7 @@ EmoteWhispers = ['%s waves.',
  '%s does a belly flop.',
  '%s bows to you.',
  '%s slips on a banana peel.',
- '%s gives the resistance salute.',
+ '%s salutes the resistance.',
  '%s laughs.',
  "%s says '" + lYes + "'.",
  "%s says '" + lNo + "'.",
